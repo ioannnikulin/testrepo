@@ -18,5 +18,9 @@ int main()
     **/
     int N;
     cin >> N;
+    int numbers[1000];
+
+    for (int i=0; i<N; i++)
+        cin >> numbers[i];
     return 0;
 }
