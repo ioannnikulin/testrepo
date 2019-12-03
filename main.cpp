@@ -24,6 +24,8 @@ int main()
         cin >> numbers[i];
 
     for (int i=0; i<N; i++)
-        cout << numbers[i] << " ";
+        for (int j=0; j<N; j++)
+            cout << numbers[i] << " " << numbers[j] << endl;
+
     return 0;
 }
